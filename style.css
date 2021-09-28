@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap");
+:root {
+  --primary-color: #c8ff1e;
+  --secondary-white: aliceblue;
+  --background-color: #050505;
+}
+
+body {
+  font-family: "Caveat", cursive;
+  margin: 0px;
+  background-color: var(--background-color);
+  color: var(--primary-color);
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.container h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+input {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem 0.5rem 1rem 0.5rem;
+  font-size: 20px;
+  width: 70%;
+  border-radius: 1rem;
+}
+label {
+  font-size: 20px;
+}
+
+#check-btn {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: var(--primary-color);
+  color: #04111c;
+  font-size: 2rem;
+  text-decoration: none;
+  border-radius: 1rem;
+  width: 40%;
+
+  border-color: var(--secondary-white);
+}
+.output-box {
+  height: 10rem;
+  margin-top: 3rem;
+  font-size: 30px;
+  border: 2px solid var(--primary-color);
+}
+
+main {
+  margin-top: 3rem;
+}
